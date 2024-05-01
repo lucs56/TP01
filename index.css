@@ -1,0 +1,42 @@
+/* Estilos generales del cuerpo de la página */
+body {
+    font-family: Arial, sans-serif; /* Fuente predeterminada para el texto */
+    margin: 0; /* Elimina los márgenes predeterminados */
+    padding: 0; /* Elimina el relleno predeterminado */
+    background-image: url('Estadio.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Esto asegura que la imagen de fondo cubra todo el tamaño del cuerpo */
+    background-position: center; /* Esto centra la imagen de fondo */
+}
+
+/* Estilos del contenedor principal */
+.container {
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente en la página */
+    padding: 20px; /* Relleno interno */
+    background-color: #ffffff; /* Color de fondo del contenedor */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+/* Estilos del título principal */
+h1 {
+    color: #2a9410; /* Color del texto */
+    text-align: center; /* Centrado horizontal */
+}
+
+/* Resto de tus estilos CSS existentes */
+
+/* Estilos del pie de página */
+footer {
+    text-align: center; /* Centra el contenido del pie de página horizontalmente */
+    margin-top: 20px; /* Margen superior */
+    background-color: #333; /* Color de fondo del pie de página */
+    padding: 20px 0; /* Relleno interno superior e inferior */
+}
+
+/* Estilos del enlace del pie de página */
+.footer-link {
+    color: #fff; /* Color del texto */
+    text-decoration: none; /* Quita el subrayado del enlace */
+    font-weight: bold; /* Texto en negrita */
+}
